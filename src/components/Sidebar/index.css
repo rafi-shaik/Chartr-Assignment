@@ -1,0 +1,90 @@
+.bar-bg {
+  padding-top: 15px;
+  background-image: linear-gradient(to bottom, #5b5bf0, #16165e);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  width: 60px;
+  transition: 0.2s;
+}
+
+.expanded-bar {
+  width: 150px;
+  transition: 0.2s;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon {
+  color: #ffffff;
+  margin-right: 10px;
+}
+
+.arrow {
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  position: relative;
+  left: 9px;
+  margin-bottom: 30px;
+}
+
+.home {
+  color: #000000;
+  margin-right: 10px;
+}
+
+.icon-span {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.home-span {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  font-weight: bold;
+  margin-bottom: 30px;
+  background-color: azure;
+  height: 35px;
+  border-radius: 3px;
+  text-align: center;
+  width: 100%;
+}
+
+.dot {
+  margin-top: 0;
+  margin-right: 5px;
+  height: 8px;
+  width: 8px;
+  background-color: #16e30b;
+  border-radius: 50%;
+}
+
+.red-dot {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 5px;
+  height: 8px;
+  width: 8px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.active-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
